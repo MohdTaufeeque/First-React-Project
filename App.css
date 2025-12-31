@@ -1,28 +1,27 @@
-.Card{
-  display: flex;
-  
-  gap: 100px;
-  justify-content: center;
-  align-items: center;
+.container {
   text-align: center;
-  
-  
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
 }
-
-.c1{
-  
-  height: 300px;
-  width: 300px;
-  
-  background-color:brown;
-  
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: rgb(210, 55, 145); 
+  transition: background-color 0.3s;
 }
-
-.c2{
-  
-  height: 300px;
-  width: 300px;
-  background-color: rgb(220, 155, 75);
-  
-  color: black;
+button.toggle {
+  background-color: #007bff; 
+}
+button.increase {
+  background-color: #28a745;
+}
+button.decrease {
+  background-color: #dc3545; 
+}
+button:hover {
+  opacity: 0.8;
 }
